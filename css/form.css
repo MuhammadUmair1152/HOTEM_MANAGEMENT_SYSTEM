@@ -1,0 +1,443 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)),url(72.webp);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    }
+    .myf1{
+        background-image: url(/images/p1.jpg);
+    }
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 40px;
+    font-family: Arial;
+    padding-left: 18px;
+    float: left;
+    padding-top: 25px;
+	}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(3, 7, 7);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    border: 1px solid white;
+    padding: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+ul li a:hover{
+    color: orangered;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search2{
+    font-family: 'Times New Roman';
+    width: 206px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(204, 175, 164);
+    margin-top: 22px;
+    color: white;
+    border-right: black;
+    font-size: 16px;
+    float: left;
+    padding: 18px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border:  none;
+    margin-top: 22px;
+    color: black;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.button:hover{
+   background-color:  white;
+}
+.button:focus{
+    outline: none;
+}    
+.search2:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.h2{
+    width: auto;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1,2px;
+    line-height: 30px;
+
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 30px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+ .content .cs{
+    width: 160px;
+    height: 40px;
+    background: rgb(255, 166, 0);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cs .an{
+    text-decoration: none;
+    color: black;
+    transition: 5s ease;
+}
+.cs:hover{
+    background-color: white;
+}
+.an{
+    width: 97px;
+}
+.content span{
+    color: orangered;
+    font-size: 60px;
+}
+.form{
+    width: 260px;
+    height: 390px;
+    background: linear-gradient(to top, rgba(138, 43, 43, 0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 32rem;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 10%;
+    margin-bottom: 30%;
+   
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.buttonn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.buttonn:hover{
+    background: white;
+    color: orange;
+}
+.buttonn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+
+}
+.newform{
+    background-image: url(73.webp);
+    background-size: cover;
+}
+.login{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.icons ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.5 ease;
+}
+.icons ion-icon:hover{
+    color: orangered;
+
+}
+.body{
+    background-color: darkslategrey;
+}
+.gallary{
+    background-color: darkslategrey;
+    background-size: cover;
+}
+.THE{
+    margin: 30px;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: rgb(0, 255, 64);
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(204, 0, 255);
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium';
+
+}
+.NATURE{
+    margin: 30px;
+    height: 80px;
+    padding-top: 25px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: red;
+    background-color: rgb(204, 0, 255);
+    font-family: 'Times New Roman';
+    font-size: 60px;
+
+}
+.BEAUTIFUL{
+    margin: 30px;
+    height: 80px;
+    padding-top: 25px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: red;
+    background-color: rgb(204, 0, 255);
+    font-family: 'Times New Roman';
+    font-size: 60px;
+
+}
+.PHOTO{
+    margin: 30px;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: rgb(89, 0, 255);
+    background-color: rgb(204, 0, 255);
+    font-family: 'Times New Roman';
+    font-size: 60px;
+}
+
+.back{
+    font-size: 25px;
+    animation: ease-in-out;
+    animation-duration: 5s;
+    font-size: 30px;
+}
+.home{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    transition: 2s ease;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.my1{
+    background-image: url(NEW8.jpg);
+    background-size: cover;
+}
+.home1{
+  margin: 29px;
+}
+.THEART{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+.intro{
+    text-align: left;
+    border: 2px solid;
+    color: rgb(10, 4, 10);
+    font-size: 30px;
+    font-weight: 20px;
+}
+.para{
+    text-align: left;
+    font-size: 30px;
+}
+.para1{
+    text-align: center;
+    font-size: 30px;
+}
+.aboutt{
+    background-image: url(NEW3.jpg);
+}
+.about{
+    margin: 40px;
+    background-image: url(NEW4.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.home3 :hover{
+    border: 2px solid;
+    background-color: rgb(19, 4, 11);
+    font-size: large;
+    animation-name: home;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation: ease-in-out;
+}
+.best5 {
+    animation-name: best;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-image: url(PIC.jpg);
+}
+.best5 :hover{
+    background-color: blue;
+}
+.start{
+    color: white;
+    margin-left: 08%;
+    margin-bottom: 10px;
+    margin-top: 05%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 01%;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
